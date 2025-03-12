@@ -8,7 +8,7 @@ All steps of the pipeline (translation, training and evaluation) have a singular
 sudo singularity build {container_path}.sif {def_file_path}.def
 ```
 
-Please note that we have also uploaded a copy of the trl and vlm2vec source code that we used, since we modified them. Refer to the original licenses of the respective repositories.
+Please note that we have also uploaded a copy of the [trl](https://github.com/huggingface/trl) and [vlm2vec](https://github.com/TIGER-AI-Lab/VLM2Vec) source code that we used, since we modified them. Refer to the original licenses of the respective repositories.
 
 # Translation
 
