@@ -32,6 +32,8 @@ In [requirements/requirements_train](requirements/requirements_train/) you can f
 
 # Evaluation
 
+Pull all the files in the [MMMEB-Benchmark](https://huggingface.co/datasets/swap-uniba/MMMEB-Benchmark) in the [eval_data](eval_data/) directory. Unzip the images.zip file and move all files from the datasets folder in MMMEB to eval_data.
+
 To evaluate CLIP or SIGLIP models, use the [base_model_process.py](base_model_process.py) and the [base_model_compute.py](base_model_compute.py) scripts. 
 
 The process script extracts embeddings for the targets, so that the process is not repeated multiple times, while the compute script extracts the embedding for the query and compares it with the candidate embeddings.
